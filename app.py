@@ -9,7 +9,7 @@ st.write('')
 st.write('')
 st.write('')
 
-st.markdown('Bitte beantworte die folgenden Fragen mit den Inhalten aus dem BLockbuster Storyskript:')
+st.markdown('**Bitte beantworte die folgenden Fragen mit den Inhalten aus dem BLockbuster Storyskript:**')
 st.write('')
 st.write('')
 
@@ -44,6 +44,10 @@ N = st.text_input('Wie hoch sind die Kosten, wenn sie dort bleiben, wo sie jetzt
 O = st.text_input('Was wäre das ideale Ergebnis für meinen Kunden, wenn alles nach Plan läuft? Wie würde sich das auf ihr Leben auswirken?')
 
 P = st.text_input('Warum sollten deine idealen Kunden dein Angebot jetzt beanspruchen und nicht abwarten? Was ist der Preis, wenn sie NICHT handeln und bleiben, wo sie sind?')
+
+st.markdown('**Bitte jetzt noch Angaben zur Zielkundensprache machen!**')
+tonality = st.text_input('Wie drückt deine Zielgruppe sich aus? Welche Wörter verwendet sie? Bitte alle Merkmale hier hinzufügen.')
+
 
 st.write('')
 st.write('')

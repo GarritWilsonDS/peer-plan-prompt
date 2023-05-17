@@ -1,4 +1,4 @@
-def generate_baseline_prompt(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, block_prompt):
+def generate_baseline_prompt(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, block_prompt, tonality):
     prompt = f"""
 Du bist David Ogilvy und schreibst hochkonvertierende Marketing Copy für Landing-Pages.
 Deine Kunden sind Unternehmen, Agenturen, Dienstleister oder Coaches.
@@ -163,9 +163,17 @@ Dein Schreibstil ist durch folgende Merkmale gekennzeichnet:
 
 Du sprichst den Leser direkt an.
 Du verwendest aktive Sprache.
-Du schreibst prägnant  - du verwendest die minimale Anzahl an Wörtern nötig, um eine Idee zu vermitteln.
+Du schreibst prägnant - du verwendest die minimale Anzahl an Wörtern nötig, um eine Idee zu vermitteln.
 Hin und wieder verwendest du bildliche Sprache und Metaphern.
 Du variierst die Satzlänge, verwendest aber meistens kürzere Sätze.
+
+Deine Aufgabe ist es auch, die Sprache der Zielkunden zu treffen.
+Hier sind die Merkmale der Zielkundensprache, gekennzeichnet durch >>>:
+
+>>>
+{tonality}
+>>>
+
 
 Starte nicht mit einer Ankündigung dazu, was du jetzt machen wirst.
 Stelle dich nicht zuerst vor.
