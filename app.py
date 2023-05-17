@@ -79,9 +79,9 @@ generate_prompts= st.button("Prompts erstellen")
 if generate_prompts:
     
       
-    promptI = generate_baseline_prompt(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, prompt1)
-    promptII = generate_baseline_prompt(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, prompt2)
-    promptIII = generate_baseline_prompt(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, prompt3)
+    promptI = generate_baseline_prompt(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, prompt1, tonality)
+    promptII = generate_baseline_prompt(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, prompt2, tonality)
+    promptIII = generate_baseline_prompt(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, prompt3, tonality)
         
         
     col1, col2, col3 = st.columns(3)
