@@ -59,7 +59,7 @@ Die Informationen gliedern sich in 5 Kategorien (Ziffern), mit jeweils 3 Unterka
 
 [O] Paradies / Transformation (Die vom Helden gewünschte Transformation)
 
-Die fertige Landing-Page wird folgende Struktur haben, gekennzeichnet durch <Landing-Page - Start> und <Landing-Page - Ende>:
+Die fertige Landing-Page wird folgende Struktur haben, gekennzeichnet durch <Start> und <Ende>:
 
 {block_prompt}
 
